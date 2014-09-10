@@ -1,8 +1,8 @@
 #scala installation
-wget www.scala-lang.org/files/archive/scala-2.11.1.deb
-sudo dpkg -i scala-2.11.1.deb
+sudo wget www.scala-lang.org/files/archive/scala-2.11.1.deb -O /tmp/scala-2.11.1.deb
+sudo dpkg -i /tmp/scala-2.11.1.deb
 
 
 # sbt installation
-wget http://scalasbt.artifactoryonline.com/scalasbt/sbt-native-packages/org/scala-sbt/sbt/0.13.1/sbt.deb
-sudo dpkg -i sbt.deb
+sudo wget http://scalasbt.artifactoryonline.com/scalasbt/sbt-native-packages/org/scala-sbt/sbt/0.13.1/sbt.deb -O /tmp/sbt.deb
+sudo dpkg -i /tmp/sbt.deb
